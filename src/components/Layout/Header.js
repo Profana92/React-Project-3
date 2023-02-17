@@ -4,7 +4,6 @@ import classes from "./Header.module.css";
 import HeaderCartButton from "./HeaderCartButton";
 
 function Header(props) {
-  console.log(props);
   return (
     <React.Fragment>
       <header className={classes.header}>
